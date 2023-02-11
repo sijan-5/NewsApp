@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:weightSum="2"
+        android:layout_marginTop="10dp"
+        android:background="#f9f9f3"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.85"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:id="@+id/imageView"
+                android:src="@drawable/nazi"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="web"
+
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/webSource"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:id="@+id/newsDate"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.15"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="newsTitle"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:id="@+id/newsTitle"
+                android:background="#ff6242"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="newsDes"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:id="@+id/newsDescription"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

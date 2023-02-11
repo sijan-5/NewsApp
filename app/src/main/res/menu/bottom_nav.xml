@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/breakingNews"
+        android:title="BreakingNews"
+        android:icon = "@drawable/breakingnews"
+        />
+
+    <item
+        android:id="@+id/savedNews"
+        android:title="Saved"
+        android:icon = "@drawable/saved"
+        />
+
+    <item
+        android:id= "@+id/searchNews"
+        android:title="Search"
+        android:icon = "@drawable/search"
+        />
+</menu>
